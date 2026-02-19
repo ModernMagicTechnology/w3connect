@@ -39,6 +39,6 @@ amount: In decimal like `1.1` USDC stand for 1100000 in int with 6 decemal place
 
 Quick one-liner
 ```bash
-curl http://127.0.0.1:5333/verify?code=[code]&chain=[chain]&to_address=[to_address]&token=[token]&amount=[amount]
+curl http://127.0.0.1:5333/send?code=[code]&chain=[chain]&to_address=[to_address]&token=[token]&amount=[amount]
 # Output: {"address": "0x..."}
 ```
